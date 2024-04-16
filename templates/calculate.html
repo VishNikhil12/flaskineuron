@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div class ='calculate'>
+            <h1> CALCULATING AVERAGE MARKS </h1> 
+            <form action ="{{url_for('calculate')}}" method ="post">
+                <input type = "text" name ="physics" placeholder ="Physics" required = "required"/>
+                <input type = "text" name ="maths" placeholder ="Maths" required = "required"/>
+                <input type = "text" name ="science" placeholder ="Science" required = "required"/>
+
+                <button type = "submit" class = "btn btn-primary  btn-block btn-Large"> Calculate </button>
+            </form>
+
+            <br>
+            <br>
+
+        </div>
+    </body>
+        </html>
